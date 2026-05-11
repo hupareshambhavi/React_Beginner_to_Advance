@@ -1,16 +1,14 @@
 import { useState } from 'react'
-
-import "./Javascript_basic/Day1"
-// import "./Javascript_basic/Day2"
-// import "./Javascript_basic/Day3"
-// import "./Javascript_basic/Day4"
-import "./Javascript_basic/Day7"
+import Header from "./components/Header";
+import ProductCard from "./components/ProductCard";
 
 function App() {
  
 
   return (
     <div>
+      <Header />
+      <ProductCard />
       
     </div>
    
