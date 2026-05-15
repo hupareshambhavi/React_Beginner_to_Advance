@@ -1,0 +1,29 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.navbar-left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar ul{
+    display:flex;
+    gap: 70px;
+    list-style: none;
+    position: sticky;
+   
+}
+.navbar img{
+    width: 60px;
+    height: 60px;
+}
